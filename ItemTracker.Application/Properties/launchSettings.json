@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ItemTracker.Application": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52813;http://localhost:52816"
+    }
+  }
+}

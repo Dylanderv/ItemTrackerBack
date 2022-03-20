@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItemTracker.Abstractions\ItemTracker.Abstractions.csproj" />
+    <ProjectReference Include="..\ItemTracker.Extensions\ItemTracker.Extensions.csproj" />
+    <ProjectReference Include="..\ItemTrackerDataBase\ItemTracker.Database.csproj" />
+    <ProjectReference Include="..\ItemTracker\ItemTracker.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
