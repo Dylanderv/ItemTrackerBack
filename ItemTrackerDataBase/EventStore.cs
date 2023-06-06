@@ -13,6 +13,7 @@ namespace ItemTracker.Database
         public EventStore(EventStoreClient dbClient)
         {
             this.dbClient = dbClient;
+            
         }
 
         public async Task Add(string streamName, IDomainEvent domainEvent)
